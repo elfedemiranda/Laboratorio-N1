@@ -10,7 +10,7 @@ def main():
     print("="*60)
     
     # Configuración de rutas de archivos
-    ruta_archivo_csv = path.join(path.dirname(__file__), "files/obj-del-gto-acum-1-a1-12.csv")
+    ruta_archivo_csv = path.join(path.dirname(__file__), "files/obj-del-gto-acum-1-al-12.csv")
     ruta_archivo_excel = path.join(path.dirname(__file__), "files/ejec-funcion-1.xlsx")
         
     print(f"📂 Archivos configurados:")
