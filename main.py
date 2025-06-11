@@ -124,7 +124,7 @@ def crear_reporte_dataset(dataset, nombre_dataset):
     except Exception as e:
         print(f"❌ Error al crear reporte: {str(e)}")
 
-def mostrar_resumen_final(csv_dataset, excel_dataset, api_dataset):
+def mostrar_resumen_final(csv_dataset, excel_dataset):
     """Muestra un resumen final de todo el procesamiento"""
     print("\n" + "="*60)
     print("📋 RESUMEN FINAL DEL PROCESAMIENTO")
